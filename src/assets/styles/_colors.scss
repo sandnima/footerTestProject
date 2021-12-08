@@ -1,0 +1,57 @@
+@import "~vuetify/src/styles/tools/_functions.sass";
+
+$s-blue: () !default;
+$s-blue: map-deep-merge(
+    (
+      'base': #0066ff,
+      'lighten-1': #e5efff,
+      'darken-1': #313d50,
+      'darken-2': #273140,
+      'darken-3': #1f2631,
+      'darken-4': #292d32,
+      'darken-5': #191f29,
+    ),
+    $s-blue
+);
+
+$s-red: () !default;
+$s-red: map-deep-merge(
+    (
+      'base': #ef1e49,
+      'lighten-1': #fee8ec,
+    ),
+    $s-red
+);
+
+$s-yellow: () !default;
+$s-yellow: map-deep-merge(
+    (
+      'base': #ffb300,
+      'lighten-1': #fff7e5,
+    ),
+    $s-yellow
+);
+
+$s-grey: () !default;
+$s-grey: map-deep-merge(
+    (
+      'base': #ccc,
+      'lighten-1': #ebebeb,
+      'darken-1': #b0b3b7,
+      'darken-2': #9b9b9b,
+      'darken-3': #707070,
+      'darken-4': #0d0d0d,
+    ),
+    $s-grey
+);
+
+$colors: () !default;
+$colors: map-deep-merge(
+    (
+      's-blue': $s-blue,
+      's-red': $s-red,
+      's-yellow': $s-yellow,
+      's-grey': $s-grey,
+    ),
+    $colors
+);
